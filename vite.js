@@ -1,4 +1,4 @@
-const express, { type Express } = require('express');
+const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { createServer as createViteServer, createLogger } = require('vite');
